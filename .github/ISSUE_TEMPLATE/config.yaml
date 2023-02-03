@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+- name: Github Discussion
+  url: https://github.com/HuanLinOTO/SVCHelper/discussions
+  about: Asking for help here | 在讨论区寻求别人的帮助
+- name: Official QQ Guild
+  url: javascript:alert('588056461');
+  about: Asking for help from QQ Guild | 在官方QQ群寻求别人的帮助
