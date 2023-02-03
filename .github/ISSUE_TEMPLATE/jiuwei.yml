@@ -16,21 +16,21 @@ body:
       description: 说说你在炼什么丹 ( DiffSVC / SoVits 等等)
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     attributes:
       label: Problems
       description: 在遇到问题的时候，我承诺将所有问题在此 issue 提及 (即把 issue 的链接发到这个 issue)
-      options: ["是","否"]
+      options: 
+        - 是
+        - 否
     validations:
       required: true
   - type: textarea
     attributes:
       label: Additional context
       description: 请描述其他想要补充的信息。
-  - type: textarea
+  - type: markdown
     attributes:
-      label: None
-      description: 祝你好运, 提问题之前看看这个吧(发送 issue 后查看)
       value: |
         - ![](https://i.328888.xyz/2023/02/03/NVRFk.png)
         - ![](https://i.328888.xyz/2023/02/03/NV3jx.png)

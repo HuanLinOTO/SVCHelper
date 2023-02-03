@@ -10,9 +10,12 @@ body:
       description: 请简明地表述您的问题
     validations:
       required: true
-  - type: checkboxes
+  - type: dropdown
     attributes:
-      options: ["预处理","训练","推理"]
+      options: 
+        - 预处理
+        - 训练
+        - 推理
       label: What step you are doing
       description: 说说你目前在哪一步遇到问题了
     validations:
@@ -31,11 +34,10 @@ body:
       ```json
       配置
       ```
-  - type: textarea
+    - type: markdown
     attributes:
-      label: None
-      description: 祝你好运, 提问题之前看看这个吧(发送 issue 后查看)
       value: |
-        ![](https://i.328888.xyz/2023/02/03/NVRFk.png)
-        ![](https://i.328888.xyz/2023/02/03/NV3jx.png)
-        ![](https://i.328888.xyz/2023/02/03/NVcQL.jpeg)
+        - ![](https://i.328888.xyz/2023/02/03/NVRFk.png)
+        - ![](https://i.328888.xyz/2023/02/03/NV3jx.png)
+        - ![](https://i.328888.xyz/2023/02/03/NVcQL.jpeg)
+
