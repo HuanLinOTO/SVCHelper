@@ -30,11 +30,11 @@ body:
     attributes:
       label: Config
       description: 请把你的配置粘贴到这里
-    value: |
-      ```json
-      配置
-      ```
-    - type: markdown
+      value: |
+        ```json
+        配置
+        ```
+  - type: markdown
     attributes:
       value: |
         - ![](https://i.328888.xyz/2023/02/03/NVRFk.png)
