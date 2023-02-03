@@ -1,0 +1,43 @@
+name: 求助-DiffSVC-OpenVPI
+description: 我遇到炼丹问题了!
+title: "求助-diffsvc-openvpi:"
+labels:
+  - needhelp-diffsvc-openvpi
+body:
+  - type: textarea
+    attributes:
+      label: Describe what the problem
+      description: 请简明地表述您的问题
+    validations:
+      required: true
+  - type: dropdown
+    attributes:
+      options: 
+        - 预处理
+        - 训练
+        - 推理
+      label: What step you are doing
+      description: 说说你目前在哪一步遇到问题了
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Logs
+      description: 日志(包括命令一并复制,可以粘贴到 https://pastebin.com/ 后将链接发至这里)
+    validations:
+      required: true
+  - type: textarea
+    attributes:
+      label: Config
+      description: 请把你的配置粘贴到这里
+      value: |
+        ```yaml
+        配置
+        ```
+  - type: markdown
+    attributes:
+      value: |
+        - ![](https://i.328888.xyz/2023/02/03/NVRFk.png)
+        - ![](https://i.328888.xyz/2023/02/03/NV3jx.png)
+        - ![](https://i.328888.xyz/2023/02/03/NVcQL.jpeg)
+

@@ -1,8 +1,8 @@
-name: 求助-DiffSVC
+name: 求助-DiffSVC-原版
 description: 我遇到炼丹问题了!
-title: "求助-diffsvc:"
+title: "求助-diffsvc-原版:"
 labels:
-  - needhelp-diffsvc
+  - needhelp-diffsvc-p
 body:
   - type: textarea
     attributes:
